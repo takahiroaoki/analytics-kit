@@ -1,0 +1,17 @@
+{
+	"name": "analytics-kit",
+	"dockerComposeFile": [
+		"docker-compose.yml"
+	],
+	"service": "analytics-kit",
+	"workspaceFolder": "/mnt",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-python.python",
+				"ms-toolsai.jupyter",
+				"ms-azuretools.vscode-docker"
+			]
+		}
+	}
+}
